@@ -8,3 +8,6 @@ pip install flask
 pip install colorama
 
 pip install pyfiglet
+
+pip install --upgrade setuptools
+
