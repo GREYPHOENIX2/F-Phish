@@ -2,8 +2,7 @@ from flask import Flask
 from flask import render_template,request,session,redirect,url_for,flash
 
 import pyfiglet
-import os
-os.system("clear")
+
 app = Flask(__name__)
 app.secret_key="secret"
 
