@@ -21,8 +21,7 @@ go to your terminal and type:
 	
 # How to use
 
-This tool is very easy to use 
-but even for beginners but' if you're a script kiddie it might be a little hard to understand it
+This tool is very easy to use even for beginners but' if you're a script kiddie it might be a little hard to understand it
 
 
 1.When you run the script you'll see the options(You'll have to enter an option twice)
