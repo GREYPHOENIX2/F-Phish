@@ -4,11 +4,11 @@
 THIS TOOL WAS MADE PURELY FOR EDUCATIONAL PURPOSES.
 THE AUTHOR IS NOT RELIABLE FOR ANY MISUSE DONE BY THE USER.
 
-#Description
+# Description
 
 F-Phish(Flask-Phish) is an ethical hacking tool that serves as a learning resource for beginner hackers by simulating phishing attacks. It offers a practical approach for understanding the techniques and strategies employed by malicious actors to deceive individuals and compromise their sensitive information. This tool aids in developing countermeasures and enhancing overall cybersecurity awareness.
 
-#install
+# install
 go to your terminal and type:
 
 	$ pkg update
@@ -19,7 +19,7 @@ go to your terminal and type:
 	$ bash install.sh
 	$ python Main.py
 	
-#How to use
+# How to use
 
 This tool is very easy to use 
 but even for beginners but' if you're a script kiddie it might be a little hard to understand it
