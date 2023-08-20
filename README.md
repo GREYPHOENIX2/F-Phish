@@ -11,13 +11,13 @@ F-Phish(Flask-Phish) is an ethical hacking tool that serves as a learning resour
 # install
 go to your terminal and type:
 
-	$ pkg update
-	$ pkg upgrade
-	$ pkg install git
-	$ git clone https://github.com/GREYPHOENIX2/F-Phish
-	$ cd F-Phish
-	$ bash install.sh
-	$ python Main.py
+	 pkg update
+	 pkg upgrade
+	 pkg install git
+	 git clone https://github.com/GREYPHOENIX2/F-Phish
+	 cd F-Phish
+	 bash install.sh
+	 python Main.py
 	
 # How to use
 
