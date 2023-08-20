@@ -28,7 +28,8 @@ This tool is very easy to use even for beginners but' if you're a script kiddie 
 
 2.After choosing the option the server will run
 
-3.When it's running you'll see two hosts.The first Host is the localhost and the second one is the host you'll use to make the site accessible on the internet 
+3.When it's running you'll see two hosts.The first Host is the localhost and the second one is the host you'll use to make the site accessible on the internet
+and it's the ip address you'll use
 
 4.Now you can send the IP address to your victim.it's not an actual ip so it cannot be used to track you and it always changes
 
